@@ -1,0 +1,16 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local server / build artifacts (none expected, but just in case)
+node_modules/
+dist/
+build/
+.cache/
