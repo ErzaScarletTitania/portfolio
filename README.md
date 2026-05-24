@@ -2,7 +2,7 @@
 
 Single-page personal portfolio for **Liliet Gonzalez Polanco** — Senior QA Manager, Test Automation Lead, AI-Enabled Quality Engineering.
 
-🌎 **Live:** _coming soon (custom domain pending)_
+🌎 **Live:** <https://erzascarlettitania.github.io/portfolio/>
 🔗 LinkedIn: [lilypolanco](https://www.linkedin.com/in/lilypolanco/)
 💻 GitHub: [ErzaScarletTitania](https://github.com/ErzaScarletTitania)
 📩 [liliet.polanco.peru@gmail.com](mailto:liliet.polanco.peru@gmail.com)
