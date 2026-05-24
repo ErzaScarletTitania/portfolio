@@ -23,7 +23,7 @@ const I18N = {
     "about.factsTitle": "Facts",
     "about.f1k": "Location", "about.f1v": "Lima, Peru",
     "about.f2k": "Time zone", "about.f2v": "EST / CST (full overlap)",
-    "about.f3k": "Engagement", "about.f3v": "Contract · B2B · Deel · Payoneer",
+    "about.f3k": "Engagement", "about.f3v": "Contract · B2B",
     "about.f4k": "Languages", "about.f4v": "English C1 · Spanish Native · German A1",
     "about.f5k": "Certifications",
 
@@ -64,7 +64,7 @@ const I18N = {
     "exp.r6": "Executed 2,000+ technical SEO audits across 600+ websites; contributed to SEOWebMas, a national diagnostic tool.",
 
     "contact.title": "Let's work together",
-    "contact.lead": "I'm available for embedded QA leadership and test-automation engagements with US software teams — contract (B2B / Deel / Payoneer) or remote full-time. Fully time-zone aligned with EST and CST.",
+    "contact.lead": "I'm available for embedded QA leadership and test-automation engagements with US software teams — B2B contract or remote full-time. Fully time-zone aligned with EST and CST.",
 
     "footer.tag": "Senior QA Manager · AI-Enabled Quality Engineering",
     "footer.built": "Built static · No tracking · Deploys to GitHub Pages, Netlify, or Cloudflare Pages out of the box."
@@ -89,7 +89,7 @@ const I18N = {
     "about.factsTitle": "Datos",
     "about.f1k": "Ubicación", "about.f1v": "Lima, Perú",
     "about.f2k": "Zona horaria", "about.f2v": "EST / CST (total solapamiento)",
-    "about.f3k": "Contratación", "about.f3v": "Contrato · B2B · Deel · Payoneer",
+    "about.f3k": "Contratación", "about.f3v": "Contrato · B2B",
     "about.f4k": "Idiomas", "about.f4v": "Inglés C1 · Español Nativo · Alemán A1",
     "about.f5k": "Certificaciones",
 
@@ -130,7 +130,7 @@ const I18N = {
     "exp.r6": "Ejecuté 2,000+ auditorías técnicas SEO en 600+ sitios web; contribuí a SEOWebMas, herramienta nacional de diagnóstico.",
 
     "contact.title": "Trabajemos juntos",
-    "contact.lead": "Estoy disponible para liderazgo embebido de QA y proyectos de automatización con equipos de software de EE.UU. y LATAM — contrato (B2B / Deel / Payoneer) o remoto full-time. Total solapamiento horario con EST y CST.",
+    "contact.lead": "Estoy disponible para liderazgo embebido de QA y proyectos de automatización con equipos de software de EE.UU. y LATAM — contrato B2B o remoto full-time. Total solapamiento horario con EST y CST.",
 
     "footer.tag": "Gerente Senior de QA · Calidad Asistida por IA",
     "footer.built": "Sitio estático · Sin tracking · Despliega en GitHub Pages, Netlify o Cloudflare Pages sin configuración."
