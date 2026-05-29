@@ -1,122 +1,129 @@
-# Liliet Gonzalez Polanco — Portfolio Site
+<!--
+GITHUB PROFILE README - HONEST VERSION
+How to publish:
+1. Repo: ErzaScarletTitania/ErzaScarletTitania
+2. Add this as README.md at the repo root.
+3. GitHub displays it automatically on your profile page.
+-->
 
-Single-page personal portfolio for **Liliet Gonzalez Polanco** — Senior QA Manager, Test Automation Lead, AI-Enabled Quality Engineering.
+# Liliet de la Caridad Gonzalez Polanco
 
-🌎 **Live:** <https://erzascarlettitania.github.io/portfolio/>
-🔗 LinkedIn: [lilypolanco](https://www.linkedin.com/in/lilypolanco/)
-💻 GitHub: [ErzaScarletTitania](https://github.com/ErzaScarletTitania)
-📩 [liliet.polanco.peru@gmail.com](mailto:liliet.polanco.peru@gmail.com)
+**AI-Enabled QA Strategist · Quality Engineering Architect · Multi-Agent Testing Workflows**
+Lima, Peru · Remote, fully aligned with US EST / CST · Open to US contract & remote roles
 
----
-
-## What this is
-
-A fast, static, single-page portfolio that mirrors the same story told on the CV, LinkedIn, and GitHub profile. Zero build step, zero dependencies (only Google Fonts), and no tracking.
-
-**Features**
-- 🌐 **EN / ES language toggle** — fully bilingual content, persisted in `localStorage`
-- 🌙 **Light / dark theme** — auto-detects system preference, persisted in `localStorage`
-- 📱 **Responsive** — mobile-first, works on every screen size
-- ⚡ **Static** — pure HTML / CSS / vanilla JS, instant load
-- ♿ **Accessible** — semantic HTML, ARIA labels, sufficient color contrast
-- 📄 **CV downloads** — EN and ES PDFs bundled under `/assets`
-- 🔍 **SEO-ready** — Open Graph metadata, meta description, semantic structure
+[![Portfolio](https://img.shields.io/badge/Portfolio-erzascarlettitania.github.io/portfolio-8A2BE2?logo=github&logoColor=white)](https://erzascarlettitania.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-lilypolanco-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lilypolanco/)
+[![Email](https://img.shields.io/badge/Email-liliet.polanco.peru%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:liliet.polanco.peru@gmail.com)
+[![ISTQB](https://img.shields.io/badge/ISTQB-Foundation%20Level-blue)](https://www.istqb.org/)
+[![Status](https://img.shields.io/badge/Available-Remote%20Contract%20%2F%20FTE-brightgreen)](#hire-me)
 
 ---
 
-## Local preview
+## About
 
-The site is static. You can open `index.html` directly in a browser, **but** for the language/theme toggles and CV downloads to work reliably (and to avoid `file://` quirks), serve it with a tiny local server.
+I don't write test scripts by hand. I design risk-based QA strategies and **orchestrate AI agents** to execute them - delivering test automation, evidence pipelines, and auditable reporting at scale.
 
-### Option 1 — Python (already installed on most systems)
-```powershell
-cd "D:\1. Escritorio\CV\2026\May. 2026\from claude\portfolio-site"
-python -m http.server 8080
-```
-Then open <http://localhost:8080>.
+ISTQB-certified with 8+ years across 20+ products. My expertise is the QA domain knowledge that directs the AI: **what to test, how to structure it, how to validate AI-generated output, and how to package it for stakeholders.**
 
-### Option 2 — Node.js
-```powershell
-npx serve .
-```
-
-### Option 3 — VS Code "Live Server" extension
-Right-click `index.html` → **Open with Live Server**.
+I turn fragile, repetitive QA work into **AI-assisted systems** - multi-agent workflows, evidence pipelines, and Windows-first CLI tooling - that ship with logs, validation, and reporting baked in.
 
 ---
 
-## Project structure
+## How I Work
 
-```
-portfolio-site/
-├── index.html                  # single-page entry
-├── assets/
-│   ├── styles.css              # all styles (light + dark)
-│   ├── script.js               # i18n + theme + year
-│   ├── cv-en.pdf               # English CV (downloadable)
-│   └── cv-es.pdf               # Spanish CV (downloadable)
-├── .github/workflows/
-│   └── pages.yml               # GitHub Pages deploy workflow
-├── .gitignore
-├── LICENSE                     # MIT
-└── README.md
-```
+1. **Design** - I define the QA strategy: risk-based, business-prioritized, standards-aligned (ISTQB, Scrum, CMMI)
+2. **Orchestrate** - I direct AI agents to execute testing, automation, and evidence capture
+3. **Validate** - I review every AI-generated artifact before it reaches a stakeholder
+4. **Deliver** - I package results into auditable, hand-off-ready reports
+
+I don't need to write Selenium scripts line by line. I need to know what good testing looks like - and how to get AI to produce it reliably.
 
 ---
 
-## Editing content
+## What I Do
 
-- **Text** lives in two places:
-  1. `index.html` — the initial English copy (also acts as fallback if JS is disabled).
-  2. `assets/script.js` — the `I18N` object holds both EN and ES translations keyed by `data-i18n` attributes.
-- To change a sentence, update **both** the HTML and the matching key in `I18N.en` / `I18N.es`.
-- **Colors / fonts:** tweak CSS variables at the top of `assets/styles.css` (`:root { --navy: ...; }` and `[data-theme="dark"] { ... }`).
-- **Projects:** edit the `<article class="project">` blocks in `index.html` and the `projects.*` keys in `script.js`.
-
----
-
-## Deploying (when you have a domain)
-
-This site is ready to deploy to any static host. Pick one:
-
-### A. GitHub Pages (free, easiest)
-1. Create a public repo, e.g. `lilypolanco.github.io` or `portfolio`.
-2. Push this folder to it.
-3. In repo **Settings → Pages**, set source to **GitHub Actions** — the included `.github/workflows/pages.yml` will deploy automatically on push to `main`.
-4. (Optional, when domain is bought) Add a `CNAME` file at the repo root containing your domain (e.g. `lilypolanco.com`), and configure DNS:
-   - `CNAME` record `www` → `<github-username>.github.io`
-   - `A` records for the apex pointing to GitHub Pages IPs: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
-
-### B. Cloudflare Pages (recommended for speed + analytics)
-1. Push to GitHub.
-2. Go to <https://dash.cloudflare.com/> → **Pages** → **Connect to Git** → pick the repo.
-3. Build command: _(leave empty)_  ·  Output directory: `/` (root).
-4. After deploy, **Custom domains** → add your domain. Cloudflare handles DNS + SSL automatically.
-
-### C. Netlify
-1. Push to GitHub.
-2. <https://app.netlify.com/> → **Add new site → Import from Git** → pick the repo.
-3. Build command: _(leave empty)_  ·  Publish directory: `/`.
-4. **Domain settings** → add custom domain after purchase.
+- **QA Strategy & Leadership** - risk-based test strategy, release readiness, ISTQB / Scrum / CMMI alignment, distributed-team leadership.
+- **AI-Orchestrated Test Automation** - I direct AI agents to build and maintain suites with Selenium WebDriver, Playwright, and Postman / Newman.
+- **Multi-Agent QA Systems** - phased execution, persistent session state, machine-readable reporting, automated evidence pipelines.
+- **AI Output Validation** - I know what "production-ready" looks like and I validate every line before it ships.
+- **Cross-Functional Delivery** - currently leading a 3-engineer team as Project Manager, bridging engineering, stakeholders, and quality.
 
 ---
 
-## After buying your domain
+## Recent Impact
 
-1. Decide a name. Suggestions (in order):
-   - `lilypolanco.com` — short, brand-matching the LinkedIn handle
-   - `liliet.dev` — modern, dev-focused
-   - `polanco.qa` — niche, memorable
-2. Buy from Namecheap, Cloudflare Registrar (cheapest renewals), Porkbun, or Google Domains successor (Squarespace).
-3. Point DNS to your chosen host (instructions above).
-4. Update the following files with the final URL:
-   - `index.html` → `og:url` meta (add one), `og:image` (add a banner image)
-   - LinkedIn "Websites" field
-   - GitHub profile README → "Website" link
-   - CVs → add domain to header (regenerate via `build_cv.py` if needed)
+| Metric | Result | How |
+| --- | --- | --- |
+| Post-release defects | −20% | AI-assisted risk-based QA strategy across 20+ products |
+| High-impact incident resolution | −40% | AI-assisted tiered escalation framework |
+| Early-stage defect detection | 60% caught pre-UAT | AI-assisted black-box, cross-browser, exploratory testing |
+| On-time deliverable approval | 90% | AI-assisted stakeholder feedback loops and milestone demos |
+| Manual regression effort | Cut significantly on 3 web products | AI-orchestrated Selenium WebDriver suites |
 
 ---
 
-## License
+## Featured Projects (All AI-Orchestrated)
 
-MIT — see [LICENSE](LICENSE). Copy is © Liliet Gonzalez Polanco; reuse the code freely, but don't pass her bio off as your own.
+| Project | Focus | My Role |
+| --- | --- | --- |
+| [**g-connect-testing-agent-v2**](https://github.com/ErzaScarletTitania/g-connect-testing-agent-v2-public-showcase) | Multi-Agent QA Framework | Designed the architecture and phases. Directed AI to build and document. |
+| [**e-commerce-audit-suite**](https://github.com/ErzaScarletTitania) | Playwright E-Commerce Audit | Defined the audit scope (SEO, security, a11y, performance, e-commerce core). AI built the suite. I validated every check. |
+| [**g-connect-frame-extractor-opencv**](https://github.com/ErzaScarletTitania/g-connect-frame-extractor-opencv) | OpenCV Evidence Capture (C#) | Designed the evidence pipeline. Directed AI to build the C# extractor. |
+| [**g-connect-frame-extractor-ps1**](https://github.com/ErzaScarletTitania/g-connect-frame-extractor-ps1) | PowerShell Evidence Capture | Same pipeline, lightweight implementation. AI-orchestrated. |
+| [**Codex-CLI-Accounts-Selection**](https://github.com/ErzaScarletTitania/Codex-CLI-Accounts-Selection) | Agent Tooling | Designed the multi-account isolation workflow. AI built the launcher. |
+
+---
+
+## Selected Private Work
+
+- **Multi-agent testing environment**: breaks QA into structured phases, preserves reusable project memory, and packages evidence + reporting for delivery. Designed by me, built via AI orchestration.
+- **Invoice automation pipeline**: monthly Excel → Google Sheets invoices → validation logs → PDF deliverables. Directed AI end-to-end.
+- **Azure DevOps export tooling**: work items → JSON, attachment bundles, Markdown reports. AI-orchestrated.
+
+---
+
+## Tools I Orchestrate (Via AI)
+
+**Testing:** Selenium WebDriver · Playwright · Postman / Newman · Manual & Exploratory · Cross-Browser · Performance · API Contract  
+**Languages (AI-directed):** Python · PowerShell · C# · JavaScript · SQL  
+**AI Platforms:** GitHub Copilot · OpenAI Codex · Claude · Multi-Agent Workflow Design · Prompt Engineering  
+**Evidence & CV:** OpenCV / OpenCvSharp · Google Workspace APIs  
+**CI / DevOps:** GitHub Actions · Azure DevOps  
+**Platforms:** Windows-first CLI · .NET 8 · Flutter  
+**Frameworks:** ISTQB · Scrum · CMMI · Risk-Based Testing
+
+---
+
+## What I Optimize For
+
+- Repeatable AI-assisted execution
+- Auditable evidence trails
+- Operator-friendly workflows (not just code, but process)
+- Clear hand-off artifacts
+- Production-safe automation (validated, not blindly trusted)
+
+---
+
+## Hire Me
+
+I work as an **embedded AI-enabled QA strategist** with US software teams from Lima, Peru - fully overlapping EST and CST.
+
+- Available for **contract** and **remote full-time** engagements
+- I own QA end-to-end on a product OR plug into an existing QA org as the AI-QA lead
+- Strong fit for SaaS, fintech, healthtech, and AI-product teams that want QA to move at AI speed - with evidence and accountability built in
+
+**liliet.polanco.peru@gmail.com**  
+[linkedin.com/in/lilypolanco](https://www.linkedin.com/in/lilypolanco/)
+
+---
+
+## Certifications & Languages
+
+- **ISTQB Certified Tester** - Foundation Level (CTFL)
+- **EFSET English** - C1 Advanced (70/100)
+- **IELTS General Training** - CEFR B2 (Band 7.0)
+- Languages: English (C1) · Spanish (Native) · German (A1)
+
+---
+
+<sub>Engineer in Computer Science · Universidad de las Ciencias Informáticas (UCI), Havana, Cuba · 2012-2017 · Top-graduate honor ("Rubén Martínez Villena").</sub>
