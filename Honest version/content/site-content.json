@@ -47,7 +47,7 @@
     "ctas": [
       { "href": "mailto:liliet.polanco.peru@gmail.com", "label": { "en": "Hire me", "es": "Contrátame" }, "variant": "btn-primary" },
       { "href": "assets/cv-en.pdf", "id": "cvDownload", "label": { "en": "Download CV (EN)", "es": "Descargar CV (ES)" }, "variant": "btn-secondary", "download": true },
-      { "href": "https://www.linkedin.com/in/lilypolanco/", "label": { "en": "LinkedIn ↗", "es": "LinkedIn ↗" }, "variant": "btn-ghost", "external": true },
+      { "href": "https://www.linkedin.com/in/lilypolanco", "label": { "en": "LinkedIn ↗", "es": "LinkedIn ↗" }, "variant": "btn-ghost", "external": true },
       { "href": "https://github.com/ErzaScarletTitania", "label": { "en": "GitHub ↗", "es": "GitHub ↗" }, "variant": "btn-ghost", "external": true }
     ]
   },
@@ -121,7 +121,7 @@
     },
     "ctas": [
       { "href": "mailto:liliet.polanco.peru@gmail.com", "label": { "en": "📩 liliet.polanco.peru@gmail.com", "es": "📩 liliet.polanco.peru@gmail.com" }, "variant": "btn-primary" },
-      { "href": "https://www.linkedin.com/in/lilypolanco/", "label": { "en": "LinkedIn ↗", "es": "LinkedIn ↗" }, "variant": "btn-secondary", "external": true },
+      { "href": "https://www.linkedin.com/in/lilypolanco", "label": { "en": "LinkedIn ↗", "es": "LinkedIn ↗" }, "variant": "btn-secondary", "external": true },
       { "href": "https://github.com/ErzaScarletTitania", "label": { "en": "GitHub ↗", "es": "GitHub ↗" }, "variant": "btn-ghost", "external": true }
     ]
   },
