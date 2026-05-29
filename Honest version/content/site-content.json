@@ -42,7 +42,7 @@
       "Multi-Agent QA",
       "Playwright · Postman · Selenium",
       "AI-Enabled QA",
-      "B2B / Deel / Payoneer"
+      "Remote contract / B2B"
     ],
     "ctas": [
       { "href": "mailto:liliet.polanco.peru@gmail.com", "label": { "en": "Hire me", "es": "Contrátame" }, "variant": "btn-primary" },
@@ -65,7 +65,7 @@
     "facts": [
       { "key": { "en": "Location", "es": "Ubicación" }, "value": { "en": "Lima, Peru", "es": "Lima, Perú" } },
       { "key": { "en": "Time zone", "es": "Zona horaria" }, "value": { "en": "EST / CST (full overlap)", "es": "EST / CST (total solapamiento)" } },
-      { "key": { "en": "Engagement", "es": "Contratación" }, "value": { "en": "Contract · B2B · Deel · Payoneer", "es": "Contrato · B2B · Deel · Payoneer" } },
+      { "key": { "en": "Engagement", "es": "Contratación" }, "value": { "en": "Contract · B2B · Remote", "es": "Contrato · B2B · Remoto" } },
       { "key": { "en": "Languages", "es": "Idiomas" }, "value": { "en": "English C1 · Spanish Native · German A1", "es": "Inglés C1 · Español Nativo · Alemán A1" } },
       { "key": { "en": "Certifications", "es": "Certificaciones" }, "value": { "en": "ISTQB CTFL · EFSET C1 · IELTS B2", "es": "ISTQB CTFL · EFSET C1 · IELTS B2" } },
       { "key": { "en": "Approach", "es": "Enfoque" }, "value": { "en": "Design · Orchestrate · Validate · Deliver", "es": "Diseñar · Orquestar · Validar · Entregar" } }
@@ -116,8 +116,8 @@
   "contact": {
     "title": { "en": "Let's work together", "es": "Trabajemos juntos" },
     "lead": {
-      "en": "I'm available for embedded QA leadership and AI-orchestrated test-automation engagements with US software teams - contract (B2B / Deel / Payoneer) or remote full-time. Fully time-zone aligned with EST and CST.",
-      "es": "Estoy disponible para liderazgo embebido de QA y automatización orquestada por IA con equipos de software de EE.UU. y LATAM - contrato (B2B / Deel / Payoneer) o remoto full-time. Total solapamiento horario con EST y CST."
+      "en": "I'm available for embedded QA leadership and AI-orchestrated test-automation engagements with US software teams - remote contract, B2B, or remote full-time. Fully time-zone aligned with EST and CST.",
+      "es": "Estoy disponible para liderazgo embebido de QA y automatización orquestada por IA con equipos de software de EE.UU. y LATAM - contrato remoto, B2B o remoto full-time. Total solapamiento horario con EST y CST."
     },
     "ctas": [
       { "href": "mailto:liliet.polanco.peru@gmail.com", "label": { "en": "📩 liliet.polanco.peru@gmail.com", "es": "📩 liliet.polanco.peru@gmail.com" }, "variant": "btn-primary" },
