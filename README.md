@@ -9,19 +9,20 @@ How to publish:
 # Liliet de la Caridad Gonzalez Polanco
 
 **AI-Enabled QA Strategist · Quality Engineering Architect · Multi-Agent Testing Workflows**
+
 Lima, Peru · Remote, fully aligned with US EST / CST · Open to US contract & remote roles
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-erzascarlettitania.github.io/portfolio-8A2BE2?logo=github&logoColor=white)](https://erzascarlettitania.github.io/portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-erzascarlettitania.github.io%2Fportfolio-8A2BE2?logo=github&logoColor=white)](https://erzascarlettitania.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lilypolanco-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lilypolanco/)
 [![Email](https://img.shields.io/badge/Email-liliet.polanco.peru%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:liliet.polanco.peru@gmail.com)
-[![ISTQB](https://img.shields.io/badge/ISTQB-Foundation%20Level-blue)](https://www.istqb.org/)
+[![ISTQB](https://img.shields.io/badge/ISTQB-CTFL-blue?logo=bookstack&logoColor=white)](https://www.istqb.org/)
 [![Status](https://img.shields.io/badge/Available-Remote%20Contract%20%2F%20FTE-brightgreen)](#hire-me)
 
 ---
 
 ## About
 
-I don't write test scripts by hand. I design risk-based QA strategies and **orchestrate AI agents** to execute them - delivering test automation, evidence pipelines, and auditable reporting at scale.
+I design risk-based QA strategies and **orchestrate AI agents** to execute them - delivering test automation, evidence pipelines, and auditable reporting at scale.
 
 ISTQB-certified with 8+ years across 20+ products. My expertise is the QA domain knowledge that directs the AI: **what to test, how to structure it, how to validate AI-generated output, and how to package it for stakeholders.**
 
@@ -31,22 +32,26 @@ I turn fragile, repetitive QA work into **AI-assisted systems** - multi-agent wo
 
 ## How I Work
 
-1. **Design** - I define the QA strategy: risk-based, business-prioritized, standards-aligned (ISTQB, Scrum, CMMI)
-2. **Orchestrate** - I direct AI agents to execute testing, automation, and evidence capture
-3. **Validate** - I review every AI-generated artifact before it reaches a stakeholder
-4. **Deliver** - I package results into auditable, hand-off-ready reports
+| Step | What I do | Output |
+| --- | --- | --- |
+| 1 | **Design** | Risk-based, business-prioritized QA strategy aligned with ISTQB, Scrum, and CMMI |
+| 2 | **Orchestrate** | AI agents executing testing, automation, and evidence capture |
+| 3 | **Validate** | Review every AI-generated artifact before it reaches a stakeholder |
+| 4 | **Deliver** | Auditable, hand-off-ready reports and artifacts |
 
-I don't need to write Selenium scripts line by line. I need to know what good testing looks like - and how to get AI to produce it reliably.
+I do not need to write Selenium scripts line by line. I need to know what good testing looks like - and how to get AI to produce it reliably.
 
 ---
 
 ## What I Do
 
-- **QA Strategy & Leadership** - risk-based test strategy, release readiness, ISTQB / Scrum / CMMI alignment, distributed-team leadership.
-- **AI-Orchestrated Test Automation** - I direct AI agents to build and maintain suites with Selenium WebDriver, Playwright, and Postman / Newman.
-- **Multi-Agent QA Systems** - phased execution, persistent session state, machine-readable reporting, automated evidence pipelines.
-- **AI Output Validation** - I know what "production-ready" looks like and I validate every line before it ships.
-- **Cross-Functional Delivery** - currently leading a 3-engineer team as Project Manager, bridging engineering, stakeholders, and quality.
+| Area | Focus |
+| --- | --- |
+| 🎯 **QA Strategy & Leadership** | Risk-based test strategy, release readiness, ISTQB / Scrum / CMMI alignment, distributed-team leadership |
+| 🤖 **AI-Orchestrated Test Automation** | I direct AI agents to build and maintain suites with Selenium WebDriver, Playwright, and Postman / Newman |
+| 🧩 **Multi-Agent QA Systems** | Phased execution, persistent session state, machine-readable reporting, automated evidence pipelines |
+| ✅ **AI Output Validation** | I know what production-ready looks like and I validate every line before it ships |
+| 🤝 **Cross-Functional Delivery** | I lead a 3-engineer team as Project Manager, bridging engineering, stakeholders, and quality |
 
 ---
 
@@ -62,7 +67,7 @@ I don't need to write Selenium scripts line by line. I need to know what good te
 
 ---
 
-## Featured Projects (All AI-Orchestrated)
+## Featured Projects
 
 | Project | Focus | My Role |
 | --- | --- | --- |
@@ -76,21 +81,23 @@ I don't need to write Selenium scripts line by line. I need to know what good te
 
 ## Selected Private Work
 
-- **Multi-agent testing environment**: breaks QA into structured phases, preserves reusable project memory, and packages evidence + reporting for delivery. Designed by me, built via AI orchestration.
-- **Invoice automation pipeline**: monthly Excel → Google Sheets invoices → validation logs → PDF deliverables. Directed AI end-to-end.
-- **Azure DevOps export tooling**: work items → JSON, attachment bundles, Markdown reports. AI-orchestrated.
+- **Multi-agent testing environment** - breaks QA into structured phases, preserves reusable project memory, and packages evidence + reporting for delivery. Designed by me, built via AI orchestration.
+- **Invoice automation pipeline** - monthly Excel → Google Sheets invoices → validation logs → PDF deliverables. Directed AI end-to-end.
+- **Azure DevOps export tooling** - work items → JSON, attachment bundles, Markdown reports. AI-orchestrated.
 
 ---
 
 ## Tools I Orchestrate (Via AI)
 
-**Testing:** Selenium WebDriver · Playwright · Postman / Newman · Manual & Exploratory · Cross-Browser · Performance · API Contract  
-**Languages (AI-directed):** Python · PowerShell · C# · JavaScript · SQL  
-**AI Platforms:** GitHub Copilot · OpenAI Codex · Claude · Multi-Agent Workflow Design · Prompt Engineering  
-**Evidence & CV:** OpenCV / OpenCvSharp · Google Workspace APIs  
-**CI / DevOps:** GitHub Actions · Azure DevOps  
-**Platforms:** Windows-first CLI · .NET 8 · Flutter  
-**Frameworks:** ISTQB · Scrum · CMMI · Risk-Based Testing
+| Category | Stack |
+| --- | --- |
+| Testing | Selenium WebDriver · Playwright · Postman / Newman · Manual & Exploratory · Cross-Browser · Performance · API Contract |
+| Languages | Python · PowerShell · C# · JavaScript · SQL |
+| AI Platforms | GitHub Copilot · OpenAI Codex · Claude · Multi-Agent Workflow Design · Prompt Engineering |
+| Evidence & CV | OpenCV / OpenCvSharp · Google Workspace APIs |
+| CI / DevOps | GitHub Actions · Azure DevOps |
+| Platforms | Windows-first CLI · .NET 8 · Flutter |
+| Frameworks | ISTQB · Scrum · CMMI · Risk-Based Testing |
 
 ---
 
@@ -98,9 +105,9 @@ I don't need to write Selenium scripts line by line. I need to know what good te
 
 - Repeatable AI-assisted execution
 - Auditable evidence trails
-- Operator-friendly workflows (not just code, but process)
+- Operator-friendly workflows
 - Clear hand-off artifacts
-- Production-safe automation (validated, not blindly trusted)
+- Production-safe automation
 
 ---
 
@@ -109,11 +116,11 @@ I don't need to write Selenium scripts line by line. I need to know what good te
 I work as an **embedded AI-enabled QA strategist** with US software teams from Lima, Peru - fully overlapping EST and CST.
 
 - Available for **contract** and **remote full-time** engagements
-- I own QA end-to-end on a product OR plug into an existing QA org as the AI-QA lead
+- I own QA end-to-end on a product or plug into an existing QA org as the AI-QA lead
 - Strong fit for SaaS, fintech, healthtech, and AI-product teams that want QA to move at AI speed - with evidence and accountability built in
 
-**liliet.polanco.peru@gmail.com**  
-[linkedin.com/in/lilypolanco](https://www.linkedin.com/in/lilypolanco/)
+**📩 liliet.polanco.peru@gmail.com**  
+[🔗 linkedin.com/in/lilypolanco](https://www.linkedin.com/in/lilypolanco/)
 
 ---
 
