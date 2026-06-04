@@ -133,4 +133,10 @@ I work as an **embedded AI-enabled QA strategist** with US software teams from L
 
 ---
 
+## Security
+
+This public repo uses GitHub secret scanning and push protection, and `main` is protected with pull request review and linear history. See [SECURITY.md](SECURITY.md) for the safe-change workflow and what to keep out of the repo.
+
+---
+
 <sub>Engineer in Computer Science · Universidad de las Ciencias Informáticas (UCI), Havana, Cuba · 2012-2017 · Top-graduate honor ("Rubén Martínez Villena").</sub>
