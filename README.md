@@ -27,6 +27,8 @@ The site positions Liliet as a **quality engineering and delivery leader** with 
 - `assets/script.js` — bilingual copy and UI behavior
 - `assets/cv-en.pdf` — English CV download
 - `assets/cv-es.pdf` — Spanish CV download
+- `scripts/Validate-Portfolio.ps1` — content and localization validation
+- `tests/Invoke-RegressionSuite.ps1` — regression suite entrypoint
 
 ## Deployment
 
@@ -35,6 +37,22 @@ This site is static and can be deployed to:
 - GitHub Pages
 - Netlify
 - Cloudflare Pages
+
+## Validation and regression checks
+
+Run the validation locally:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\Validate-Portfolio.ps1
+```
+
+Run the regression suite locally:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tests\Invoke-RegressionSuite.ps1
+```
+
+The GitHub Actions workflow under `.github/workflows/pages.yml` now runs the regression suite on pushes and pull requests. Deployments only proceed after validation passes.
 
 ## Notes
 
