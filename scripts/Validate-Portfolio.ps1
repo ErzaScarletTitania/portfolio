@@ -60,7 +60,7 @@ Assert-Contains $scriptContent "lang === 'es' ? 'assets/cv-es.pdf' : 'assets/cv-
 Assert-Contains $scriptContent '"impact.v6": "9 years"' 'English impact years value must be 9 years.'
 Assert-Contains $scriptContent '"impact.v6": "9 años"' 'Spanish impact years value must be 9 años.'
 Assert-Contains $scriptContent '"impact.m1": "Post-release defects across a 30+ product portfolio"' 'English impact portfolio count must be 30+ products.'
-Assert-Contains $scriptContent '"impact.m1": "Defectos post-release en portafolio de 30+ productos"' 'Spanish impact portfolio count must be 30+ productos.'
+Assert-Contains $scriptContent '"impact.m1": "Defectos posteriores a liberación en portafolio de 30+ productos"' 'Spanish impact portfolio count must be 30+ productos.'
 Assert-Contains $scriptContent '9 years across 30+ web, mobile, desktop, and software-delivery initiatives.' 'English hero lead must reflect 9 years and 30+ products.'
 Assert-Contains $scriptContent '9 años en 30+ iniciativas web, móviles, de escritorio y de entrega de software.' 'Spanish hero lead must reflect 9 años and 30+ productos.'
 
