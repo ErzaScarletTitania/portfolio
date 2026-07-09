@@ -1,5 +1,5 @@
 /* ============================================
-   Liliet Gonzalez Polanco — Portfolio script
+   Liliet de la Caridad González Polanco — Portfolio script
    Language toggle (EN/ES), theme toggle, year
    ============================================ */
 
