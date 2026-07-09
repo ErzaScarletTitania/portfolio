@@ -33,6 +33,7 @@ const I18N = {
     "impact.m3": "Bugs caught pre-UAT through risk-based testing",
     "impact.m4": "On-time deliverable approval rate",
     "impact.m5": "Products under unified QA strategy",
+    "impact.v6": "9 years",
     "impact.m6": "Leading quality & delivery",
 
     "skills.title": "What I do",
@@ -99,6 +100,7 @@ const I18N = {
     "impact.m3": "Bugs detectados antes de UAT con pruebas basadas en riesgo",
     "impact.m4": "Tasa de aprobación de entregables en tiempo",
     "impact.m5": "Productos bajo estrategia unificada de QA",
+    "impact.v6": "9 años",
     "impact.m6": "Liderando calidad y entrega",
 
     "skills.title": "Lo que hago",
