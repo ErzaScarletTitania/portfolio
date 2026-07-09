@@ -28,7 +28,7 @@ const I18N = {
     "about.f5k": "Certifications",
 
     "impact.title": "Recent Impact",
-    "impact.m1": "Post-release defects across a 20+ product portfolio",
+    "impact.m1": "Post-release defects across a 30+ product portfolio",
     "impact.m2": "High-impact incident resolution time",
     "impact.m3": "Bugs caught pre-UAT through risk-based testing",
     "impact.m4": "On-time deliverable approval rate",
@@ -57,7 +57,7 @@ const I18N = {
 
     "exp.title": "Experience",
     "exp.r1": "Lead delivery for a top-priority software program across a multi-stream roadmap, coordinating a cross-functional team of 3 engineers and owning planning, risk tracking, and stakeholder communication. I designed a tiered escalation framework that reduced high-impact incident resolution time by 40% and instituted milestone demos that increased on-time deliverable approval to 90%.",
-    "exp.r2": "Built and led the QA function for a 20+ product portfolio spanning web, mobile, desktop, and software delivery initiatives. I defined a unified QA strategy aligned with ISTQB, Scrum, and CMMI; led risk-based test planning that reduced post-release defects by 20%; and directed cross-platform testing that raised pre-UAT defect detection to 60%.",
+    "exp.r2": "Built and led the QA function for a 30+ product portfolio spanning web, mobile, desktop, and software delivery initiatives. I defined a unified QA strategy aligned with ISTQB, Scrum, and CMMI; led risk-based test planning that reduced post-release defects by 20%; and directed cross-platform testing that raised pre-UAT defect detection to 60%.",
     "exp.r3": "Generated 15 new B2B contracts supporting $1.5M+ in annual revenue in Cuba's Mariel Special Economic Zone. 90% client retention over 100+ accounts.",
     "exp.r4": "Owned technical discovery and customer-facing solution alignment, contributing to a 95% customer-satisfaction score. Aligned sales, engineering, and marketing around a clearer discovery-to-handoff model, accelerating solution-delivery cycles by 30% and reducing complex-issue resolution time by 40%.",
     "exp.r5": "Taught Discrete Mathematics, Probability, and Statistics to 100+ undergraduates; lifted cohort promotion rates 15%.",
@@ -94,7 +94,7 @@ const I18N = {
     "about.f5k": "Certificaciones",
 
     "impact.title": "Impacto Reciente",
-    "impact.m1": "Defectos post-release en portafolio de 20+ productos",
+    "impact.m1": "Defectos post-release en portafolio de 30+ productos",
     "impact.m2": "Tiempo de resolución de incidentes críticos",
     "impact.m3": "Bugs detectados antes de UAT con pruebas basadas en riesgo",
     "impact.m4": "Tasa de aprobación de entregables en tiempo",
@@ -123,7 +123,7 @@ const I18N = {
 
     "exp.title": "Experiencia",
     "exp.r1": "Lidero la entrega de un programa de software de alta prioridad en una hoja de ruta de múltiples frentes, coordinando un equipo multifuncional de 3 ingenieros y asumiendo planificación, seguimiento de riesgos y comunicación con stakeholders. Diseñé un marco de escalación por niveles que redujo en 40% el tiempo de resolución de incidentes críticos e instituí demos de hitos que elevaron a 90% la aprobación puntual de entregables.",
-    "exp.r2": "Construí y lideré la función de QA para un portafolio de 20+ productos que abarcó iniciativas web, móviles, de escritorio y de entrega de software. Definí una estrategia unificada de QA alineada con ISTQB, Scrum y CMMI; lideré planificación basada en riesgo que redujo en 20% los defectos post-release; y dirigí pruebas cross-platform que elevaron a 60% la detección de defectos antes de UAT.",
+    "exp.r2": "Construí y lideré la función de QA para un portafolio de 30+ productos que abarcó iniciativas web, móviles, de escritorio y de entrega de software. Definí una estrategia unificada de QA alineada con ISTQB, Scrum y CMMI; lideré planificación basada en riesgo que redujo en 20% los defectos post-release; y dirigí pruebas cross-platform que elevaron a 60% la detección de defectos antes de UAT.",
     "exp.r3": "Generé 15 nuevos contratos B2B respaldando US$1.5M+ en ingresos anuales en la Zona Económica Especial del Mariel, Cuba. 90% de retención sobre 100+ cuentas.",
     "exp.r4": "Lideré el discovery técnico y la alineación de soluciones frente al cliente, contribuyendo a un índice de satisfacción de 95%. Alineé ventas, ingeniería y marketing alrededor de un handoff más claro, acelerando en 30% los ciclos de entrega y reduciendo en 40% el tiempo de resolución de incidencias complejas.",
     "exp.r5": "Impartí Matemática Discreta, Probabilidades y Estadística a 100+ estudiantes de pregrado; elevé la tasa de promoción un 15%.",
