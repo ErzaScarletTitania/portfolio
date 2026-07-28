@@ -99,8 +99,8 @@ Assert-NotContains $scriptContent '8+ years' 'script.js still contains stale 8+ 
 Assert-NotContains $scriptContent '8+ años' 'script.js still contains stale 8+ años wording.'
 
 # Social sharing metadata (LinkedIn / X previews)
-$canonicalUrl = 'https://erzascarlettitania.github.io/portfolio/'
-$ogImageUrl = "$canonicalUrl" + 'assets/og-cover.png'
+$canonicalUrl = 'https://erzascarlettitania.github.io/portfolio/?v=3'
+$ogImageUrl = 'https://erzascarlettitania.github.io/portfolio/assets/og-cover.png'
 $sharedTitle = 'Liliet de la Caridad González Polanco — Quality Engineering Leader · AI-Enabled Delivery Systems'
 
 Assert-Contains $indexContent "<title>$sharedTitle</title>" 'Document title does not match the current positioning statement.'
