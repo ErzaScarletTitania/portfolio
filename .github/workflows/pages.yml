@@ -17,6 +17,60 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  commit-identity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify commit author identity
+        shell: bash
+        env:
+          EXPECTED_EMAIL: 101874050+ErzaScarletTitania@users.noreply.github.com
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch --no-tags origin "${{ github.base_ref }}" --depth=0
+            range="origin/${{ github.base_ref }}..HEAD"
+          else
+            before="${{ github.event.before }}"
+            if [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ] \
+               || ! git cat-file -e "$before^{commit}" 2>/dev/null; then
+              range="HEAD~0..HEAD"
+            else
+              range="$before..HEAD"
+            fi
+          fi
+
+          echo "Checking commits in range: $range"
+          commits="$(git rev-list "$range" 2>/dev/null || git rev-list -1 HEAD)"
+
+          failed=0
+          for sha in $commits; do
+            author="$(git show -s --format=%ae "$sha")"
+            committer="$(git show -s --format=%ce "$sha")"
+            subject="$(git show -s --format=%s "$sha")"
+
+            if [ "$author" != "$EXPECTED_EMAIL" ] || [ "$committer" != "$EXPECTED_EMAIL" ]; then
+              echo "::error::${sha:0:7} uses an unlinked identity - author=<$author> committer=<$committer> - $subject"
+              failed=1
+            else
+              echo "ok ${sha:0:7} $subject"
+            fi
+          done
+
+          if [ "$failed" -ne 0 ]; then
+            echo
+            echo "Commits must be authored with $EXPECTED_EMAIL so GitHub links them"
+            echo "to the ErzaScarletTitania account. Fix with:"
+            echo
+            echo "  git config user.email \"$EXPECTED_EMAIL\""
+            echo "  git config core.hooksPath .githooks"
+            echo
+            exit 1
+          fi
+
   validate:
     runs-on: windows-latest
     steps:
@@ -27,7 +81,7 @@ jobs:
 
   deploy:
     if: github.event_name != 'pull_request'
-    needs: validate
+    needs: [commit-identity, validate]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

@@ -29,6 +29,19 @@ The site positions Liliet as a **quality engineering and delivery leader** with 
 - `assets/cv-es.pdf` — Spanish CV download
 - `scripts/Validate-Portfolio.ps1` — content and localization validation
 - `tests/Invoke-RegressionSuite.ps1` — regression suite entrypoint
+- `.githooks/pre-commit` — enforces the commit identity rule
+
+## Contributing
+
+Commits must be authored with the account's linked email address. Run this once
+after cloning:
+
+```powershell
+git config user.email "101874050+ErzaScarletTitania@users.noreply.github.com"
+git config core.hooksPath .githooks
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full rule and how it is enforced.
 
 ## Deployment
 
