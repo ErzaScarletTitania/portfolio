@@ -6,6 +6,7 @@ $indexPath = Join-Path $repoRoot 'index.html'
 $scriptPath = Join-Path $repoRoot 'assets\script.js'
 $cvEnPath = Join-Path $repoRoot 'assets\cv-en.pdf'
 $cvEsPath = Join-Path $repoRoot 'assets\cv-es.pdf'
+$ogImagePath = Join-Path $repoRoot 'assets\og-cover.png'
 
 function Assert-True {
     param(
@@ -48,6 +49,7 @@ Assert-FileExists $indexPath
 Assert-FileExists $scriptPath
 Assert-FileExists $cvEnPath
 Assert-FileExists $cvEsPath
+Assert-FileExists $ogImagePath
 
 $indexContent = Get-Content -LiteralPath $indexPath -Raw
 $scriptContent = Get-Content -LiteralPath $scriptPath -Raw
@@ -95,5 +97,26 @@ Assert-NotContains $scriptContent '20+ productos' 'script.js still contains stal
 Assert-NotContains $indexContent '8+ yrs' 'index.html still contains stale 8+ yrs wording.'
 Assert-NotContains $scriptContent '8+ years' 'script.js still contains stale 8+ years wording.'
 Assert-NotContains $scriptContent '8+ años' 'script.js still contains stale 8+ años wording.'
+
+# Social sharing metadata (LinkedIn / X previews)
+$canonicalUrl = 'https://erzascarlettitania.github.io/portfolio/'
+$ogImageUrl = "$canonicalUrl" + 'assets/og-cover.png'
+$sharedTitle = 'Liliet de la Caridad González Polanco — Quality Engineering Leader · AI-Enabled Delivery Systems'
+
+Assert-Contains $indexContent "<title>$sharedTitle</title>" 'Document title does not match the current positioning statement.'
+Assert-Contains $indexContent "<meta property=`"og:title`" content=`"$sharedTitle`" />" 'og:title does not match the current positioning statement.'
+Assert-Contains $indexContent "<meta name=`"twitter:title`" content=`"$sharedTitle`" />" 'twitter:title does not match the current positioning statement.'
+Assert-Contains $indexContent "<meta property=`"og:url`" content=`"$canonicalUrl`" />" 'og:url is missing; link previews may resolve stale cached data.'
+Assert-Contains $indexContent "<link rel=`"canonical`" href=`"$canonicalUrl`" />" 'Canonical link is missing.'
+Assert-Contains $indexContent "<meta property=`"og:image`" content=`"$ogImageUrl`" />" 'og:image is missing; link previews will render without a thumbnail.'
+Assert-Contains $indexContent '<meta name="twitter:card" content="summary_large_image" />' 'twitter:card is missing.'
+Assert-Contains $indexContent '<meta property="og:image:width" content="1200" />' 'og:image:width is missing.'
+Assert-Contains $indexContent '<meta property="og:image:height" content="630" />' 'og:image:height is missing.'
+
+# Guard against the retired positioning statement resurfacing in shared metadata
+foreach ($stale in 'AI-Enabled QA Strategist', 'Quality Engineering Architect', 'QA Estrategist', 'Quality Engineering Architec') {
+    Assert-NotContains $indexContent $stale "index.html still contains retired positioning wording: $stale."
+    Assert-NotContains $scriptContent $stale "script.js still contains retired positioning wording: $stale."
+}
 
 Write-Host 'Portfolio validation passed.'
