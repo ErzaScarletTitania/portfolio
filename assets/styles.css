@@ -276,6 +276,17 @@ h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
 .t-date { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); margin-left: auto; }
 .timeline p { color: var(--muted); font-size: 0.95rem; }
 
+/* ====== PUBLICATIONS ====== */
+.pub-list { list-style: none; max-width: var(--max); margin: 0 auto; }
+.pub-list li {
+  display: flex; flex-wrap: wrap; justify-content: space-between;
+  gap: 0.35rem 1.5rem; align-items: baseline;
+  padding: 0.85rem 0; border-bottom: 1px dashed var(--border);
+}
+.pub-list li:last-child { border-bottom: 0; }
+.pub-name { color: var(--ink); font-weight: 600; font-size: 0.95rem; flex: 1 1 320px; }
+.pub-meta { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+
 /* ====== CONTACT ====== */
 .contact { text-align: center; }
 .contact-lead {
