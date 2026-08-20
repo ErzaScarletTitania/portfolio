@@ -260,13 +260,14 @@ h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
   content: ''; position: absolute; left: 6px; top: 0; bottom: 0;
   width: 2px; background: var(--border);
 }
-.timeline li { position: relative; padding: 0 0 1.75rem 1.5rem; }
-.timeline li::before {
+.timeline > li { position: relative; padding: 0 0 1.75rem 1.5rem; }
+.timeline > li:last-child { padding-bottom: 0; }
+.timeline > li::before {
   content: ''; position: absolute; left: -1.5rem; top: 0.45rem;
   width: 14px; height: 14px; border-radius: 50%;
   background: var(--navy); border: 3px solid var(--bg);
 }
-[data-theme="dark"] .timeline li::before { border-color: var(--bg); }
+[data-theme="dark"] .timeline > li::before { border-color: var(--bg); }
 .t-header {
   display: flex; flex-wrap: wrap; gap: 0.5rem 1rem;
   align-items: baseline; margin-bottom: 0.4rem;
@@ -275,6 +276,24 @@ h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
 .t-company { color: var(--navy); font-weight: 500; font-size: 0.95rem; }
 .t-date { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); margin-left: auto; }
 .timeline p { color: var(--muted); font-size: 0.95rem; }
+
+/* Employer block with nested roles */
+.t-company-head {
+  display: flex; flex-wrap: wrap; gap: 0.3rem 1rem;
+  align-items: baseline; margin-bottom: 0.85rem;
+}
+.t-company-name { color: var(--navy); font-weight: 700; font-size: 1.02rem; }
+.t-span { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); margin-left: auto; }
+.roles { list-style: none; }
+.roles.multi { border-left: 2px solid var(--border); padding-left: 1.15rem; }
+.role { padding-bottom: 1.15rem; }
+.role:last-child { padding-bottom: 0; }
+.role-head {
+  display: flex; flex-wrap: wrap; gap: 0.2rem 1rem;
+  align-items: baseline; margin-bottom: 0.3rem;
+}
+.role-title { font-weight: 700; color: var(--ink); }
+.role-date { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); margin-left: auto; }
 
 /* ====== PUBLICATIONS ====== */
 .pub-list { list-style: none; max-width: var(--max); margin: 0 auto; }
@@ -314,4 +333,6 @@ h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
   .section-alt { padding-left: 1rem; padding-right: 1rem; }
   .grid.two-col { grid-template-columns: 1fr; }
   .t-date { margin-left: 0; }
+  .t-span, .role-date { margin-left: 0; }
+  .roles.multi { padding-left: 0.85rem; }
 }

@@ -85,10 +85,19 @@ foreach ($key in 'projects.s1', 'projects.s2', 'projects.s3', 'projects.s4') {
     Assert-Contains $indexContent "data-i18n=`"$key`"" "Missing localization binding for $key in project stacks."
 }
 
-# Experience headers localized
-foreach ($key in 'exp.h1r','exp.h1c','exp.h1d','exp.h2r','exp.h2c','exp.h2d','exp.h3r','exp.h3c','exp.h3d','exp.h4r','exp.h4c','exp.h4d','exp.h5r','exp.h5c','exp.h5d','exp.h6r','exp.h6c','exp.h6d') {
-    Assert-Contains $indexContent "data-i18n=`"$key`"" "Missing localization binding for $key in experience headers."
+# Experience company blocks and role headers localized
+foreach ($key in 'exp.c1','exp.c1d','exp.c2','exp.c2d','exp.c3','exp.c3d') {
+    Assert-Contains $indexContent "data-i18n=`"$key`"" "Missing localization binding for $key in experience company blocks."
 }
+
+foreach ($key in 'exp.h0r','exp.h1r','exp.h1d','exp.h2r','exp.h2d','exp.h3r','exp.h3d','exp.h4r','exp.h4d','exp.h5r','exp.h5d','exp.h6r','exp.h6d') {
+    Assert-Contains $indexContent "data-i18n=`"$key`"" "Missing localization binding for $key in experience role headers."
+}
+
+# Roles must stay grouped under a single block per employer
+Assert-True (([regex]::Matches($indexContent, '<ol class="timeline">')).Count -eq 1) 'Experience timeline wrapper is missing or duplicated.'
+Assert-True (([regex]::Matches($indexContent, 'class="t-company-head"')).Count -eq 3) 'Experience must render exactly 3 employer blocks (ecoPortal, Cuban Engineer, UCI).'
+Assert-True (([regex]::Matches($indexContent, 'class="role-title"')).Count -eq 7) 'Experience must render exactly 7 roles across the 3 employer blocks.'
 
 # Guard against stale product/years values in active site files
 Assert-NotContains $indexContent '20+ product portfolio' 'index.html still contains stale 20+ product portfolio wording.'
