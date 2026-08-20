@@ -25,7 +25,7 @@ const I18N = {
 
     "about.title": "About",
     "about.p1": "ISTQB-certified <strong>quality engineering leader</strong> with 9 years across 30+ products. I design quality strategy, strengthen release readiness, and create structured workflows that improve execution and stakeholder visibility.",
-    "about.p2": "I currently lead QA at ecoPortal (New Zealand), a 6-person team supporting 9 product squads, alongside a contract engagement as Project Manager — bridging engineering, stakeholders, and quality. My work combines evidence-based QA operations, delivery discipline, and AI-enabled workflow design.",
+    "about.p2": "I currently lead QA at ecoPortal (New Zealand), a 6-person team supporting 9 product squads, alongside an engagement as Project Manager — both on a contract basis, bridging engineering, stakeholders, and quality. My work combines evidence-based QA operations, delivery discipline, and AI-enabled workflow design.",
     "about.factsTitle": "Facts",
     "about.f1k": "Location", "about.f1v": "Lima, Peru",
     "about.ftzk": "Time zone", "about.ftzv": "UTC-5 · Full US business-hours overlap",
@@ -69,7 +69,7 @@ const I18N = {
     "projects.cta": "View on GitHub ↗",
 
     "exp.title": "Experience",
-    "exp.c1": "ecoPortal · New Zealand · Remote",
+    "exp.c1": "ecoPortal · New Zealand · Contract · Remote",
     "exp.c1d": "Jul 2026 — Present",
     "exp.c2": "Cuban Engineer · Contract · Remote",
     "exp.c2d": "Sep 2021 — Present",
@@ -132,7 +132,7 @@ const I18N = {
 
     "about.title": "Acerca de mí",
     "about.p1": "Certificada ISTQB como <strong>líder de ingeniería de calidad</strong> con 9 años en 30+ productos. Diseño la estrategia de calidad, fortalezco la preparación para liberación y creo flujos estructurados que mejoran la ejecución y la visibilidad para las partes interesadas.",
-    "about.p2": "Actualmente lidero QA en ecoPortal (Nueva Zelanda), un equipo de 6 personas que da soporte a 9 squads de producto, en paralelo a un contrato como Gerente de Proyecto — puente entre ingeniería, partes interesadas y calidad. Mi trabajo combina operaciones de QA basadas en evidencia, disciplina de entrega y diseño de flujos potenciados por IA.",
+    "about.p2": "Actualmente lidero QA en ecoPortal (Nueva Zelanda), un equipo de 6 personas que da soporte a 9 squads de producto, en paralelo a una colaboración como Gerente de Proyecto — ambas por contrato, puente entre ingeniería, partes interesadas y calidad. Mi trabajo combina operaciones de QA basadas en evidencia, disciplina de entrega y diseño de flujos potenciados por IA.",
     "about.factsTitle": "Datos",
     "about.f1k": "Ubicación", "about.f1v": "Lima, Perú",
     "about.ftzk": "Zona horaria", "about.ftzv": "UTC-5 · Solapamiento total con el horario de EE. UU.",
@@ -176,7 +176,7 @@ const I18N = {
     "projects.cta": "Ver en GitHub ↗",
 
     "exp.title": "Experiencia",
-    "exp.c1": "ecoPortal · Nueva Zelanda · Remoto",
+    "exp.c1": "ecoPortal · Nueva Zelanda · Contrato · Remoto",
     "exp.c1d": "Jul 2026 — Presente",
     "exp.c2": "Cuban Engineer · Contrato · Remoto",
     "exp.c2d": "Sep 2021 — Presente",
