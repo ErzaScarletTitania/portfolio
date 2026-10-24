@@ -25,7 +25,7 @@ const I18N = {
 
     "about.title": "About",
     "about.p1": "ISTQB-certified <strong>quality engineering leader</strong> with 9 years across 30+ products. I design quality strategy, strengthen release readiness, and create structured workflows that improve execution and stakeholder visibility.",
-    "about.p2": "I currently lead QA at ecoPortal (New Zealand), a 6-person team supporting 9 product squads, alongside an engagement as Project Manager — both on a contract basis, bridging engineering, stakeholders, and quality. My work combines evidence-based QA operations, delivery discipline, and AI-enabled workflow design.",
+    "about.p2": "I currently lead QA at ecoPortal (New Zealand), overseeing 8 direct reports in a 9-person QA organization across 9 product squads, alongside an engagement as Project Manager — both on a contract basis. My work combines people leadership, CMMI-aligned operating-model design, risk-based quality strategy, and AI-enabled delivery.",
     "about.factsTitle": "Facts",
     "about.f1k": "Location", "about.f1v": "Lima, Peru",
     "about.ftzk": "Time zone", "about.ftzv": "UTC-5 · Full US business-hours overlap",
@@ -39,7 +39,7 @@ const I18N = {
     "impact.m2": "High-impact incident resolution time",
     "impact.m3": "Bugs caught pre-UAT through risk-based testing",
     "impact.m4": "On-time deliverable approval rate",
-    "impact.m5": "Testers led across 9 delivery squads at ecoPortal",
+    "impact.m5": "QA organization led and expanded at ecoPortal",
     "impact.v6": "9 years",
     "impact.m6": "Leading quality & delivery",
 
@@ -55,7 +55,7 @@ const I18N = {
     "skills.s5t": "Cross-Functional Delivery",
     "skills.s5d": "Sprint planning, risk tracking, stakeholder reporting, and tiered escalation frameworks across engineering, product, and executive stakeholders.",
     "skills.s6t": "Platforms & Environments",
-    "skills.s6d": "Web, .NET 8 desktop, Flutter mobile, Playwright, Python, PowerShell, C#, SQL, GitHub Actions, and Azure DevOps.",
+    "skills.s6d": "React web, Rails services, GraphQL/REST APIs, Flutter mobile, Playwright, Python, PowerShell, C#, SQL, GitHub Actions, and Azure DevOps.",
 
     "projects.title": "Featured Projects",
     "projects.p1": "AI-enabled quality operating model with phased execution, persistent session state, and machine-readable reporting. I designed the workflow structure, evidence model, and reporting logic.",
@@ -88,7 +88,7 @@ const I18N = {
     "exp.h5d": "Sep 2017 — Aug 2021",
     "exp.h6r": "SEO Specialist",
     "exp.h6d": "Sep 2017 — Mar 2019",
-    "exp.r0": "Lead a 6-person QA team supporting all 9 active product squads, owning department strategy, testing standards, and QA representation with engineering and executive stakeholders. I delivered the department's first documented QA status assessment within 2 weeks of joining by running 14 structured interviews across 5 stakeholder groups, and set the technical direction for QA automation and AI-assisted testing — shaping the Playwright and Claude-based roadmap that extends the team beyond frontend-only E2E testing.",
+    "exp.r0": "Lead 8 direct reports in a 9-person QA organization across 9 product squads and recruited 3 QA professionals. I authored a 23-artifact, CMMI-aligned QA operating-model proposal across 11 governance areas, then directed risk-based QA across 3 multilingual workstreams in a React/Rails/GraphQL/REST/Flutter SaaS environment. The work defined 27 test cases and, for one release, identified 16 defects and validated 12 fixes; I also established rubric-based quality evaluation for a conversational-AI feature with 14 test charters and 2 defects surfaced.",
     "exp.r1": "Lead delivery for a top-priority software program across a multi-stream roadmap, coordinating a cross-functional team of 3 engineers and owning planning, risk tracking, and stakeholder communication. I designed a tiered escalation framework that reduced high-impact incident resolution time by 40%, instituted milestone demos that increased on-time deliverable approval to 90%, and standardized weekly financial and burn-rate reporting across every delivery milestone.",
     "exp.r2": "Built and led the QA function for a 30+ product portfolio spanning web, mobile, desktop, and software delivery initiatives. I defined a unified QA strategy aligned with ISTQB, Scrum, and CMMI; led risk-based test planning that reduced post-release defects by 20%; directed cross-platform testing that raised pre-UAT defect detection to 60%; and cut manual regression effort by ~30% per release cycle.",
     "exp.r3": "Generated 15 new B2B contracts supporting $1.5M+ in annual revenue in Cuba's Mariel Special Economic Zone. 90% client retention over 100+ accounts.",
@@ -132,7 +132,7 @@ const I18N = {
 
     "about.title": "Acerca de mí",
     "about.p1": "Certificada ISTQB como <strong>líder de ingeniería de calidad</strong> con 9 años en 30+ productos. Diseño la estrategia de calidad, fortalezco la preparación para liberación y creo flujos estructurados que mejoran la ejecución y la visibilidad para las partes interesadas.",
-    "about.p2": "Actualmente lidero QA en ecoPortal (Nueva Zelanda), un equipo de 6 personas que da soporte a 9 squads de producto, en paralelo a una colaboración como Gerente de Proyecto — ambas por contrato, puente entre ingeniería, partes interesadas y calidad. Mi trabajo combina operaciones de QA basadas en evidencia, disciplina de entrega y diseño de flujos potenciados por IA.",
+    "about.p2": "Actualmente lidero QA en ecoPortal (Nueva Zelanda), con 8 reportes directos en una organización de QA de 9 personas en 9 squads de producto, en paralelo a una colaboración como Gerente de Proyecto — ambas por contrato. Mi trabajo combina liderazgo de personas, diseño de modelo operativo alineado con CMMI, estrategia de calidad basada en riesgo y entrega potenciada por IA.",
     "about.factsTitle": "Datos",
     "about.f1k": "Ubicación", "about.f1v": "Lima, Perú",
     "about.ftzk": "Zona horaria", "about.ftzv": "UTC-5 · Solapamiento total con el horario de EE. UU.",
@@ -146,7 +146,7 @@ const I18N = {
     "impact.m2": "Tiempo de resolución de incidentes críticos",
     "impact.m3": "Bugs detectados antes de UAT con pruebas basadas en riesgo",
     "impact.m4": "Tasa de aprobación de entregables en tiempo",
-    "impact.m5": "Testers liderados en 9 squads de entrega en ecoPortal",
+    "impact.m5": "Organización de QA liderada y ampliada en ecoPortal",
     "impact.v6": "9 años",
     "impact.m6": "Liderando calidad y entrega",
 
@@ -162,7 +162,7 @@ const I18N = {
     "skills.s5t": "Entrega Multifuncional",
     "skills.s5d": "Planificación de sprints, gestión de riesgos, reportería para partes interesadas y marcos de escalamiento por niveles entre ingeniería, producto y dirección.",
     "skills.s6t": "Plataformas y Entornos",
-    "skills.s6d": "Web, escritorio .NET 8, móvil Flutter, Playwright, Python, PowerShell, C#, SQL, GitHub Actions y Azure DevOps.",
+    "skills.s6d": "Web con React, servicios Rails, APIs GraphQL/REST, móvil Flutter, Playwright, Python, PowerShell, C#, SQL, GitHub Actions y Azure DevOps.",
 
     "projects.title": "Proyectos Destacados",
     "projects.p1": "Modelo operativo de calidad potenciado por IA con ejecución por fases, estado persistente y reportería legible por máquina. Diseñé la estructura del flujo, el modelo de evidencia y la lógica de reportería.",
@@ -195,7 +195,7 @@ const I18N = {
     "exp.h5d": "Sep 2017 — Ago 2021",
     "exp.h6r": "Especialista SEO",
     "exp.h6d": "Sep 2017 — Mar 2019",
-    "exp.r0": "Lidero un equipo de QA de 6 personas que da soporte a los 9 squads de producto activos, asumiendo la estrategia del departamento, los estándares de prueba y la representación de QA ante ingeniería y la dirección. Entregué la primera evaluación documentada del estado de QA del departamento en las primeras 2 semanas, mediante 14 entrevistas estructuradas a 5 grupos de interés, y definí la dirección técnica de la automatización de QA y las pruebas asistidas por IA — dando forma a la hoja de ruta con Playwright y Claude que lleva al equipo más allá de las pruebas E2E solo de frontend.",
+    "exp.r0": "Lidero a 8 reportes directos en una organización de QA de 9 personas en 9 squads de producto y recluté a 3 profesionales de QA. Elaboré una propuesta de modelo operativo de QA alineada con CMMI compuesta por 23 artefactos en 11 áreas de gobierno, y dirigí QA basada en riesgo en 3 flujos multilingües dentro de un entorno SaaS con React, Rails, GraphQL/REST y Flutter. El trabajo definió 27 casos de prueba y, para un release, identificó 16 defectos y validó 12 correcciones; también establecí evaluación basada en rúbricas para una funcionalidad de IA conversacional con 14 charters y 2 defectos identificados.",
     "exp.r1": "Lidero la entrega de un programa de software de alta prioridad en una hoja de ruta de múltiples frentes, coordinando un equipo multifuncional de 3 ingenieros y asumiendo planificación, seguimiento de riesgos y comunicación con las partes interesadas. Diseñé un marco de escalación por niveles que redujo en 40% el tiempo de resolución de incidentes críticos, instituí demos de hitos que elevaron a 90% la aprobación puntual de entregables y estandaricé la reportería semanal financiera y de consumo presupuestal en cada hito de entrega.",
     "exp.r2": "Construí y lideré la función de QA para un portafolio de 30+ productos que abarcó iniciativas web, móviles, de escritorio y de entrega de software. Definí una estrategia unificada de QA alineada con ISTQB, Scrum y CMMI; lideré planificación basada en riesgo que redujo en 20% los defectos posteriores a liberación; dirigí pruebas multiplataforma que elevaron a 60% la detección de defectos antes de UAT; y reduje ~30% el esfuerzo de regresión manual por ciclo de liberación.",
     "exp.r3": "Generé 15 nuevos contratos B2B respaldando US$1.5M+ en ingresos anuales en la Zona Económica Especial del Mariel, Cuba. 90% de retención sobre 100+ cuentas.",
